@@ -166,3 +166,9 @@
     text-align: left;
   }
 }
+
+body[data-controller="jobs"][data-action="index"] {
+  .wepay-widget-button {
+    margin: 1em;
+  }
+}
